@@ -1,5 +1,5 @@
 # Fridge Indredient Detection
-Deployed Application: [Live Link](https://fridge-ingredient-detection-ei1gsluh5.vercel.app/)
+Deployed Application: [Live Link](https://fridge-ingredient-detection.vercel.app/)
 
 ### Demo:
 <div align="center">
