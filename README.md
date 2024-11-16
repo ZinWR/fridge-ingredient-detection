@@ -1,5 +1,10 @@
 # Fridge Indredient Detection
-Deployed Application: [Live Link - TBD](https://your-app-name.vercel.app)
+Deployed Application: [Live Link](https://fridge-ingredient-detection-ei1gsluh5.vercel.app/)
+
+### Demo:
+<div align="center">
+    <img alt="Gameplay" src="public\demo.gif" width="75%" height="auto">
+</div>
 
 ### Requirements:
 - **Tech Stack**: The core of the project should be built using **Next.js** and **React**, with **Tailwind CSS** for styling. The choice of AI/ML model and any other supporting technologies is up to the candidate.
@@ -14,12 +19,14 @@ Deployed Application: [Live Link - TBD](https://your-app-name.vercel.app)
 - MaterialUI
 - TailwindCSS
 - ClarifAI
+- Jest (testing)
 
 ## Documentation
 I chose ClarifAI as the primary AI service for image recognition:
 - It has `Food Recognition Model` that is highly tailored for itentifying food-related items.
 - The API is well-documented so setting up and integrating was fast.
 - Currently working correctly to identifying food & send errors for blurry images/drinks/non-food images
+- Also added 1 simple test for route/API key.
 
 Initially, I experimented with `Google Cloud Vision AI`, another powerful and versatile tool. However, there are some challenges:
 - Frequently over-detect non-food-related objects (text, logos, unrelated software) and often times very vague.
@@ -28,6 +35,6 @@ Initially, I experimented with `Google Cloud Vision AI`, another powerful and ve
 ## Challenges
 The main challenge was determining the suitable AI model for the application as setting up the backend would highly depended on it. (Estimating/predicting the quantity is possible, but time was limited)
 
-Another challenge was the UI/UX design! 
+Another challenge was the UI/UX design! (Given more time, I will tweak it some more) 
 
-I opted in for the badge feature for listed ingredients as it is intuitive for the user to instantly recognize rather than just listing them out in bullets points or tables.
+I opted in for the badge feature for listed ingredients as it is intuitive for the user to instantly recognize rather than just listing them out in bullets points or tables. 
